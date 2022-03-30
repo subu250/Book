@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.matc.entity.BookTest" time="0.5" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/subu/projects/Book/target/test-classes:/Users/subu/projects/Book/target/classes:/Users/subu/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/subu/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/subu/.m2/repository/javax/validation/validation-api/2.0.0.Final/validation-api-2.0.0.Final.jar:/Users/subu/.m2/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar:/Users/subu/.m2/repository/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar:/Users/subu/.m2/repository/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar:/Users/subu/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/Users/subu/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/subu/projects/Book/target/surefire/surefirebooter6793796591254933539.jar /Users/subu/projects/Book/target/surefire 2022-03-30T18-27-35_479-jvmRun1 surefire4811586933180781550tmp surefire_017564980439407483207tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/subu/projects/Book/target/test-classes:/Users/subu/projects/Book/target/classes:/Users/subu/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/subu/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/subu/.m2/repository/javax/validation/validation-api/2.0.0.Final/validation-api-2.0.0.Final.jar:/Users/subu/.m2/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar:/Users/subu/.m2/repository/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar:/Users/subu/.m2/repository/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar:/Users/subu/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/Users/subu/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/subu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/subu/projects/Book"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/subu/projects/Book/target/surefire/surefirebooter6793796591254933539.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="subu"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/subu/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/_p/f5qq3gbs1b52yttg2xrx6qv00000gq/T/"/>
+    <property name="idea.version" value="2021.2.1"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="/Users/subu/projects/Book"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/subu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="bookValidation" classname="edu.matc.entity.BookTest" time="0.118"/>
+  <testcase name="nameIsNotEmpty" classname="edu.matc.entity.BookTest" time="0"/>
+  <testcase name="titleNameTooShort" classname="edu.matc.entity.BookTest" time="0.001"/>
+  <testcase name="bookCountLow" classname="edu.matc.entity.BookTest" time="0.001"/>
+</testsuite>
